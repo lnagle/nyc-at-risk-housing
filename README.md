@@ -1,6 +1,20 @@
 ## About
 
-This project uses NYC Open Data (https://opendata.cityofnewyork.us/) to analyze the impact of climate change on housing in NYC.
+This project uses NYC Open Data (https://opendata.cityofnewyork.us/) to analyze the impact of climate change on housing in NYC. 
+
+## Roadmap
+
+- [x] Make filtered and formatted new housing data ingestible into a local DB instance
+- [ ] Ingest extreme weather and sea level data from NYC Open Data.
+  - It may also be useful to seek out data about the impacts of Hurricanes Sandy and Ida, as FEMA flood hazard zones seem to have a quite specific meaning
+- [ ] Identify which new housing developments are at risk due to climate change in the next few decades by determining whether or not their lat/lon coordinates fall within flood plains
+  - [ ] Assess the impact to each borough individually
+  - [ ] Assess the impact against the number of livable units specifically (buildings alone are too course grained)
+
+### Backlog / Post-MVP 
+- [ ] Expand assessment to include existing buildings
+- [ ] Examine the socioeconomics of neighborhoods that are impacted the most
+  - For example, East Harlem seems to be particularly prone to flooding, whereas the Upper East Side does not
 
 ## Installing and Running
 
@@ -19,10 +33,6 @@ Note that this repo already comes loaded with a formatted and paired down data s
 1. Download the original data set from the link in the Housing Data section. Save it to the root directory of this project.
 2. Follow the instuctions in ./js/README.md
 3. Repeat step 2 from the main Installing and Running instructions
-
-## Roadmap
-
-- [x] Make filtered and formatted housing data ingestible into a local DB instance
 
 ## Notes
 
