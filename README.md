@@ -23,15 +23,6 @@ Note that this repo already comes loaded with a formatted and paired down data s
 ## Roadmap
 
 - [x] Make filtered and formatted housing data ingestible into a local DB instance
-- [ ] Ingest extreme weather and sea level data from NYC Open Data
-- [ ] Identify which new housing developments are at risk due to climate change in the next few decades by determining whether or not their lat/lon coordinates fall within flood plains
-  - [ ] Assess the impact to each borough individually
-  - [ ] Assess the impact against the number of livable units specifically (buildings alone are too course grained)
-- [ ] 
-
-### Backlog
-
-- [ ] Examine 
 
 ## Notes
 
