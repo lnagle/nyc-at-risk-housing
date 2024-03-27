@@ -1,12 +1,12 @@
 ## About
 
-This project uses NYC Open Data (https://opendata.cityofnewyork.us/) to analyze the impact of climate change on housing in NYC. 
+This project uses NYC Open Data (https://opendata.cityofnewyork.us/) to analyze the impacts of climate change on housing in NYC.
 
 ## Roadmap
 
-- [x] Make filtered and formatted new housing data ingestible into a local DB instance
-- [ ] Ingest extreme weather and sea level data from NYC Open Data.
-  - It may also be useful to seek out data about the impacts of Hurricanes Sandy and Ida, as FEMA flood hazard zones seem to have a quite specific meaning
+- [ ] Load housing data into geopandas
+- [ ] Load extreme weather and sea level data from NYC Open Data.
+  - It may also be useful to seek out data about the impacts of hurricanes Sandy and Ida, as FEMA flood hazard zones seem to have a quite specific meaning
 - [ ] Identify which new housing developments are at risk due to climate change in the next few decades by determining whether or not their lat/lon coordinates fall within flood plains
   - [ ] Assess the impact to each borough individually
   - [ ] Assess the impact against the number of livable units specifically (buildings alone are too course grained)
@@ -18,21 +18,7 @@ This project uses NYC Open Data (https://opendata.cityofnewyork.us/) to analyze 
 
 ## Installing and Running
 
-Prerequisites:
-- A local instance of Postgres against which you have access to run `psql` commands
-- NodeJS
-
-1. In index.sql, update the COPY command to use your absolute path to FormattedHousingDB_post2010.csv
-2. In the root directory, run `psql -f index.sql`
-3. Execute a command against the database in which the COPY was run. For example: `SELECT count(*) FROM new_housing;`
-
-### Updating the Format of the Original Data Set
-
-Note that this repo already comes loaded with a formatted and paired down data set. That said, if you'd like to transform the original data set yourself:
-
-1. Download the original data set from the link in the Housing Data section. Save it to the root directory of this project.
-2. Follow the instuctions in ./js/README.md
-3. Repeat step 2 from the main Installing and Running instructions
+Under Construction
 
 ## Notes
 
