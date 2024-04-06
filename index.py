@@ -28,7 +28,9 @@ TODO
 
 gdf2.plot(ax=base, markersize=1)
 
-plt.savefig('images/newHousingMap', dpi=200)
-
 # ------------------------
 # Part 3: Map flood risk areas in 2050
+gdf3 = geopandas.read_file('floodMapData2050.gdb')
+gdf3.plot(ax=base, color='red')
+
+plt.savefig('images/newHousingMap', dpi=200)
