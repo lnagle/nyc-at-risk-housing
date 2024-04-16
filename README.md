@@ -5,7 +5,7 @@ This project uses NYC Open Data (https://opendata.cityofnewyork.us/) to analyze 
 ## Roadmap
 
 - [x] Load housing data into geopandas
-- [ ] Load extreme weather and sea level data from NYC Open Data.
+- [x] Load extreme weather and sea level data from NYC Open Data.
   - It may also be useful to seek out data about the impacts of hurricanes Sandy and Ida, as FEMA flood hazard zones seem to have a quite specific meaning
 - [ ] Identify which new housing developments are at risk due to climate change in the next few decades by determining whether or not their lat/lon coordinates fall within flood plains
   - [ ] Assess the impact to each borough individually
