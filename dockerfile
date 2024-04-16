@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3
+FROM jupyter/docker-stacks-foundation
 
 WORKDIR /app
 
