@@ -15,7 +15,11 @@
 				"ms-toolsai.jupyter"
 			]
 		}
+	},
+	"containerEnv": {
+		"PYDEVD_WARN_SLOW_RESOLVE_TIMEOUT": "3"
 	}
+
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -25,9 +29,6 @@
 
 	// Uncomment the next line to run commands after the container is created.
 	// "postCreateCommand": "cat /etc/os-release",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
 
 	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "devcontainer"
