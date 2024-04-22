@@ -1,6 +1,6 @@
 ## About
 
-This project uses NYC Open Data (https://opendata.cityofnewyork.us/) to analyze the impacts of climate change on housing in NYC.
+Housing stock is always in short supply in New York City. Although more is being built every day, it's clear that sea level changes and extreme weather due to climate change will have negative effects on the supply. This project uses NYC Open Data (https://opendata.cityofnewyork.us/) to analyze the impacts of climate change on housing in NYC.
 
 ## Roadmap
 
