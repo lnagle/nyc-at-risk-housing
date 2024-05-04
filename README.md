@@ -16,15 +16,16 @@ Housing stock is always in short supply in New York City. Although more is being
 
 ### Backlog / Additional Avenues of Research
 - [ ] Explore ways to get a more comprehensive view of where flooding occurs in light of the fact that the data set only maps places with flooding depths equal to or greater than 4 inches. For example, map [311 calls](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data) related to flooding
-- [ ] Examine the socioeconomics of neighborhoods that are impacted the most
-  - For example, East Harlem seems to be particularly prone to flooding, whereas the Upper East Side is less so
+- [ ] Examine the socioeconomics of neighborhoods that are impacted the most. For example, East Harlem seems to be particularly prone to flooding, whereas the Upper East Side is less so
 - [ ] Compare projected impacts to data about the impacts of past extreme weather events. For example, hurricanes Sandy and Ida
 - [ ] Expand analysis to include other impacts of climate change beyond housing. For example, effects on the subway system
 - [ ] Run the same analysis against [2080 sea level rise and flooding projections](https://data.cityofnewyork.us/City-Government/NYC-Stormwater-Flood-Map-Extreme-Flood-with-2080-S/w8eg-8ha6/about_data)
 
 ## Installing and Running
 
-To Do
+For viewing alone, simply open [this page](https://github.com/lnagle/nyc-at-risk-housing/blob/main/index.ipynb) in your browser.
+
+Development instructions: TODO
 
 ## Lessons Learned
 
