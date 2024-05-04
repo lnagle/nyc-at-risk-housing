@@ -4,35 +4,27 @@ Housing stock is always in short supply in New York City. Although more is being
 
 ## Roadmap
 
-- [x] Load housing data into geopandas
-- [x] Load extreme weather and sea level data from NYC Open Data.
-  - It may also be useful to seek out data about the impacts of hurricanes Sandy and Ida, as FEMA flood hazard zones seem to have a quite specific meaning
-- [ ] Identify which new housing developments are at risk due to climate change in the next few decades by determining whether or not their lat/lon coordinates fall within flood plains
+- [x] Identify NYC Open Data sets that can be used in this analysis
+- [x] Storyboard analysis
+- [x] Write project overview and map NYC boroughs
+- [x] Load extreme weather and sea level data from NYC Open Data
+- [x] Contextualize and analyze map of flooding
+- [ ] Map NYC housing
+- [ ] Identify housing that's at risk due to sea level rise and flooding
   - [ ] Assess the impact to each borough individually
   - [ ] Assess the impact against the number of livable units specifically (buildings alone are too course grained)
 
-### Backlog / Post-MVP 
-- [ ] Expand assessment to include existing buildings
+### Backlog / Additional Avenues of Research
+- [ ] Explore ways to get a more comprehensive view of where flooding occurs in light of the fact that the data set only maps places with flooding depths equal to or greater than 4 inches. For example, map [311 calls](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data) related to flooding
 - [ ] Examine the socioeconomics of neighborhoods that are impacted the most
-  - For example, East Harlem seems to be particularly prone to flooding, whereas the Upper East Side does not
+  - For example, East Harlem seems to be particularly prone to flooding, whereas the Upper East Side is less so
+- [ ] Compare projected impacts to data about the impacts of past extreme weather events. For example, hurricanes Sandy and Ida
+- [ ] Expand analysis to include other impacts of climate change beyond housing. For example, effects on the subway system
+- [ ] Run the same analysis against [2080 sea level rise and flooding projections](https://data.cityofnewyork.us/City-Government/NYC-Stormwater-Flood-Map-Extreme-Flood-with-2080-S/w8eg-8ha6/about_data)
 
 ## Installing and Running
 
-Under Construction
-
-## Notes
-
-### Housing Data
-
-- Data set source: https://www.nyc.gov/site/planning/data-maps/open-data/dwn-housing-database.page
-- 5627 / 26132 (21.5%) of the formatted records do not contain data about how many livable units are in the new building. The average unit count among the 78.5% of records is 16.5 (rounded).
-- Boroughs are represented by a 1-5 range. The mappings are:
-  - 1: Manhattan
-  - 2: Bronx
-  - 3: Brooklyn
-  - 4: Queens
-  - 5: Staten Island
-- BIN stands for Building Identification Number and identifies each unique building in the city. It is 7 digit string starting with the borough code and 6 digit unique building number
+To Do
 
 ## Lessons Learned
 
